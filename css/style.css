@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-color: #F7F8F1;
+    height: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: #4c5b5c;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #cfd9af;
+}
+
+.nav-left, .nav-right {
+   display: flex;
+}
+
+.nav-center {
+    margin: auto;
+    padding: .5rem;
+}
+
+.nav-items li {
+    display: inline-block;
+    padding: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-items a {
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/edward-howell-iDlZaCORBO0-unsplash.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+.section1 {
+    width: 70%;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}   
+
+.section1 div {
+    display: flex;
+    justify-content: space-around;
+}
